@@ -1,0 +1,15 @@
+{
+  "name": "New Chrome Extension",
+  "version": "1.0",
+  "description": "Personal project: my own homemade chrome extension",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*", "file://*/*"],
+      "js": ["src/content.js"]
+    }
+  ],
+  "icons" : {
+    "128": "icons/icon128.png"
+  },
+  "manifest_version": 2
+}
