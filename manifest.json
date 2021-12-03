@@ -8,6 +8,9 @@
       "js": ["src/content.js"]
     }
   ],
+  "chrome_url_overrides" : {
+    "newtab": "newTab.html"
+  },
   "icons" : {
     "128": "icons/icon128.png"
   },
